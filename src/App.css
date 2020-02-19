@@ -22,6 +22,11 @@ body{
   color: black;
   top:4em;
 }
+
+.App-header img {
+  margin-left:-40em;
+}
+
 .heading-background{
   position: fixed;
   opacity: 0.05;
@@ -77,6 +82,7 @@ li .link:hover{
   background:#69748D;
   border: 0px;
   padding: 1em 3em;
+  margin-top:50px;
   transition: all 0.2s ease-out;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -117,7 +123,7 @@ li .link:hover{
   width: 37em;
 }
 .about img{
-  margin-left: 5em;
+  margin-left:18em;
 }
 .work{
   position: relative;
@@ -144,7 +150,7 @@ li .link:hover{
 
 .project img{
 width: 30em;  
-height: 30em;
+height: 25em;
 }
 .contact{
   position: relative;
@@ -164,7 +170,7 @@ height: 30em;
 
 .contact .email{
   color:#69748D;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 .contact li{
   display: inline-block;

@@ -9,8 +9,7 @@ class Header extends Component {
     render() {
         return (<div>
             <header>
-                <h1>
-                    <Fade bottom cascade>{data.name}</Fade></h1>
+                <Fade bottom cascade><img src={data.name} width="450" height="100" alt='brand logo'></img></Fade>
             </header>
             <Fade bottom>
             <p className='header-title'>

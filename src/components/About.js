@@ -12,7 +12,7 @@ class About extends Component {
                     <p>{data.abouttext}</p>
             </Fade>
             </div>
-            {data.ShowAboutImage ? <img src='src/about.jpeg' alt='about'></img> : null}
+            {data.ShowAboutImage ? <img src={data.aboutImage} width="300" height="380" alt='about'></img> : null}
             
 
         </div>  );
