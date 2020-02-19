@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans&display=swap');
 
-
 body{
   font-size: 16px;
   background: white;
@@ -9,11 +8,9 @@ body{
   z-index: 1;
 }
 
-
 .App {
   text-align: center;
 }
-
 
 
 .App-header {
@@ -32,7 +29,7 @@ body{
   left:-0.2em;
   top:-0.5em;
   z-index: -100;
-  color:#9352ae;
+  color:black;
 }
 header{
   display: flex;
@@ -59,7 +56,7 @@ nav li{
 }
 nav li .link{
   text-decoration: none;
-  color: black;
+  color:black;
   padding:1em;
   opacity: 0.5;
   transition: all 0.3s ease-in-out;
@@ -72,12 +69,12 @@ li .link:hover{
   opacity: 1;
 }
 .active{
-  color:black;
+  color:#69748D;
   opacity: 1;
 }
 
 .header-title button{
-  background: black;
+  background:#69748D;
   border: 0px;
   padding: 1em 3em;
   transition: all 0.2s ease-out;
@@ -141,6 +138,10 @@ li .link:hover{
   grid-gap: 2em;
 }
 
+.work h1{
+  font-size:1.5em;
+}
+
 .project img{
 width: 30em;  
 height: 30em;
@@ -152,18 +153,18 @@ height: 30em;
   text-align: left;
 }
 .contact h1{
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 5em;
   text-align: left;
 }
 .amazing-color{
-  color:#9352ae;
+  color:#69748D;
   opacity: 1;
 }
 
 .contact .email{
-  color:black;
-  font-size: 2em;
+  color:#69748D;
+  font-size: 1.5em;
 }
 .contact li{
   display: inline-block;
@@ -183,7 +184,7 @@ height: 30em;
 }
 .footer a{
   text-decoration: none;
-  color:#2c59fb;
+  color:#69748D;
 }
 
 
@@ -427,8 +428,4 @@ height: 32em;
   padding: 1em;
   font-size: 4em;
 }
-
-
 }
-
-
