@@ -11,19 +11,16 @@ class Contact extends Component {
         </h1>
         <Fade bottom>
         <div className='contact-content'>
-                <h1>
-                let’s create your next<br></br>
-                <span className='amazing-color'>experience together</span>.</h1>
+                <h2>
+                <span className='amazing-color'>let's connect! <span role="img" aria-label="heart">❤️</span></span></h2>
                     <a href={`mailto:${data.contactEmail}`} className='email'>{data.contactEmail}</a>
-                <ul>
+                    <br></br>
                     {data.social.map((link,index)=>(
                         <li key={index}><a target='_blank' rel="noopener noreferrer" href={link.url}>{link.name}</a></li>
-                    ))}   
-                </ul>
+                    ))} 
         </div>
         </Fade>
-
-            <span className='footer'>made with ❤️ by <a href="link">tiffany truong</a></span>
+        <br></br><br></br><br></br>
         </div>);
     }
 }
