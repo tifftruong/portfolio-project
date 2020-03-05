@@ -1,13 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class STEM extends Component {
-    render() { 
-        return (  <div>
+function STEM(){
+    return <div className="page">
         <div className='header'>
             <h1>Student | Teacher | Employee | Manager</h1>
         </div>
-        </div>);
-    }
+    </div>
 }
 
 export default STEM;

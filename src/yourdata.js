@@ -17,7 +17,7 @@ export default
                 title:'Student | Teacher | Employee | Manager', 
                 service:'UI/UX Design', 
                 imageSrc:"https://www.dropbox.com/s/koz202to5a8dnqq/STEM.png?raw=1",
-                url: ''
+                url: '/components/STEM'
             },
             {
                 id: 2,
