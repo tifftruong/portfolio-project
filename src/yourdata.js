@@ -17,28 +17,28 @@ export default
                 title:'Student | Teacher | Employee | Manager', 
                 service:'UI/UX Design', 
                 imageSrc:"https://www.dropbox.com/s/koz202to5a8dnqq/STEM.png?raw=1",
-                url: '/components/STEM'
+                url: 'https://jaydoesitagain.wixsite.com/hcde318-stem'
             },
             {
                 id: 2,
                 title: 'Seattle Pinball Museum',
                 service: 'Brand Guidelines',
                 imageSrc: "https://www.dropbox.com/s/3oazplf88iykald/SPM.png?raw=1",
-                url: ''
+                url: 'https://drive.google.com/file/d/1Qr0fns_k7HRmePuYDFrG4uXHimnPRVCc/view'
             },
             { 
                 id: 3,
                 title: 'Friends of Little Sàigòn',
                 service: 'Research & Advocacy Intern',
                 imageSrc: "https://www.dropbox.com/s/t0936c32rhj149h/FLS.png?raw=1",
-                url: ''
+                url: 'https://drive.google.com/file/d/13iggyrUwjyFQK1mpYgUlkWAAu8Xeunlp/view'
             },
             {
                 id: 4,
                 title: 'Office of the Chief Information Security Officer',
                 service: 'Student Design Assistant',
                 imageSrc: "https://www.dropbox.com/s/ac47b4cuyeu4o4n/CISO.png?raw=1",
-                url: ''
+                url: 'https://ciso.uw.edu/education/'
            }
         ],
         social: [
