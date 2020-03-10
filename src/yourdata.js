@@ -1,12 +1,12 @@
 export default
     {
         name :'https://www.dropbox.com/s/atykwpug4amxovb/signature.PNG?raw=1',
+        headerImg: "https://www.dropbox.com/s/tino7zdvm40o4id/Doodle.png?raw=1",
+        ShowHeaderImage:true,
         headerTagline: [//Line 1 For Header
-                        'hi 👋 i am tiffany truong.',
+                        'hi 👋 i am tiffany truong,',
                         //Line 2 For Header
-                        'ux designer',
-                        //Line 3 For Header
-                        'from olympia, wa'],
+                        'an aspiring ux designer.'],
         contactEmail:'tiff21@uw.edu',
         abouttext: "I am passionate about design for its unlimited possibility to impact people’s lives and the communities that I care about. With my design skill set and passion for technology, I have been able to research, create and design content to bring the Vietnamese community's needs and problems to light here in Seattle as well as educate the UW community about security awareness.",
         ShowAboutImage:true,

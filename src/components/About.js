@@ -13,8 +13,6 @@ class About extends Component {
             </Fade>
             </div>
             {data.ShowAboutImage ? <img src={data.aboutImage} width="300" height="380" alt='about'></img> : null}
-            
-
         </div>  );
     }
 }

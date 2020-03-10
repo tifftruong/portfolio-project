@@ -13,17 +13,14 @@ class Header extends Component {
             </header>
             <Fade bottom>
             <p className='header-title'>
-            {data.headerTagline[0]}<br></br>{data.headerTagline[1]}<br></br>
-            {data.headerTagline[2]}
+                {data.headerImg ? <img src={data.headerImg} width="600" height="300" alt='doodle'></img> : null}
+                <br></br>
+                {data.headerTagline[0]}<br></br>{data.headerTagline[1]}
                <br></br>
                     <button><a href={`mailto:${data.contactEmail}`} rel="noopener noreferrer">contact</a></button>
-                </p>
+            </p>
             </Fade>
-
-
-
         </div>);
     }
 }
-
 export default Header;

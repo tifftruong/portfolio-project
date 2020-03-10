@@ -7,12 +7,9 @@ body{
   overflow-x: hidden;
   z-index: 1;
 }
-
 .App {
   text-align: center;
 }
-
-
 .App-header {
   position: relative;
   min-height: 100vh;
@@ -20,19 +17,19 @@ body{
   flex-direction: column;
   align-items: center;
   color: black;
-  top:4em;
+  top:3rem;
 }
-
 .App-header img {
-  margin-left:-40em;
+  position: relative;
+  top:-1rem;
+  margin-left:-40rem;
 }
-
 .heading-background{
   position: fixed;
   opacity: 0.05;
-  font-size: 25em;
-  left:-0.2em;
-  top:-0.5em;
+  font-size: 25rem;
+  left:-0.2rem;
+  top:-0.5rem;
   z-index: -100;
   color:black;
 }
@@ -43,16 +40,16 @@ header{
   align-items: center;
 }
 header h1{
-font-size: 1em;
+font-size: 1rem;
 font-weight: 400;  
-padding: 1em;
-margin-right: 50em;
+padding: 1rem;
+margin-right: 50rem;
 }
 nav{
   position:fixed;
-  left:60em;
-  top:6em;
-z-index: 100;
+  left:60rem;
+  top:3rem;
+  z-index: 100;
 }
 nav li{
   display: inline-block;
@@ -62,7 +59,7 @@ nav li{
 nav li .link{
   text-decoration: none;
   color:black;
-  padding:1em;
+  padding:1rem;
   opacity: 0.5;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -77,12 +74,16 @@ li .link:hover{
   color:#69748D;
   opacity: 1;
 }
-
+.header-title img {
+  margin-left:0.2rem;
+  width: 35rem;
+  margin-top:-1rem;
+}
 .header-title button{
   background:#69748D;
   border: 0px;
-  padding: 1em 3em;
-  margin-top:50px;
+  padding: 1rem 3rem;
+  margin-top:2rem;
   transition: all 0.2s ease-out;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -100,9 +101,9 @@ li .link:hover{
 .header-title{
   position: relative;
   font-family: 'Montserrat', sans-serif;
-  font-size: 3em;
+  font-size: 3rem;
   text-align: left;
-  top:2em;
+  top:2rem;
 }
 .about{
   display: flex;
@@ -110,74 +111,76 @@ li .link:hover{
 }
 .about-content{
   position: relative;
-  left:15em;
+  left:15rem;
 }
 .about-content h1{
   font-family: 'Montserrat', sans-serif;
-  font-size: 5em;
+  font-size: 5rem;
   text-align: left;
 }
 .about-content p{
-  font-size: 1.3em;
+  font-size: 1.3rem;
   text-align: left;
-  width: 37em;
+  width: 37rem;
 }
 .about img{
-  margin-left:18em;
+  margin-left:18rem;
 }
 .work{
   position: relative;
   display: flex;
   flex-direction: column;
-  left:15em;
-  top:8em;
+  left:15rem;
+  top:5rem;
   align-items: flex-start;
 }
 .work .heading{
   font-family: 'Montserrat', sans-serif;
-  font-size: 5em;
+  font-size: 5rem;
   text-align: left;
 }
 .work .work-content{
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  grid-gap: 2em;
+  grid-gap: 2rem;
 }
 
 .work h1{
-  font-size:1.5em;
+  font-size:1.5rem;
 }
 
 .project img{
-width: 30em;  
-height: 25em;
+width: 30rem;  
+height: 25rem;
 }
 .contact{
   position: relative;
-  top:20em;
-  left:15em;
+  top:8rem;
+  left:15rem;
   text-align: left;
 }
 .contact h1{
   font-family: 'Montserrat', sans-serif;
-  font-size: 5em;
+  font-size: 5rem;
   text-align: left;
+}
+.contact-content{
+  margin-top:-3rem;
 }
 .amazing-color{
   color:#69748D;
   opacity: 1;
-  font-size: 1.3em;
+  font-size: 2rem;
 }
-
 .contact .email{
   color:#69748D;
-  font-size: 1.3em;
+  font-size: 1.3rem;
 }
 .contact li{
   display: inline-block;
   margin-top:0;
   margin-bottom: 0;
-  margin-right: 1em;
+  margin-right: 1rem;
   margin-left: 0;
 }
 .contact li a{
@@ -187,242 +190,75 @@ height: 25em;
 
 /* SMARTPHONES PORTRAIT */
 @media only screen and (min-device-width: 320px) and (max-device-width : 480px){
-
   body{
     font-size: 6px;
   }
   header h1{
-font-size: 5em;  
-padding: 1em;
-margin-right: 0em;
-}
-
-.heading-background{
-  display: none;
-}
-nav{
-  display: none;
-}
-.header-title{
-  font-size: 3em;
-  text-align: left;
-  top:1em;
-  left:1em;
-}
-.about{position: relative;
-      display: flex;
-      top:-30em;
-}
-.about img{
-  display: none
-}
-.about-content{
-  left:2em;
-}
-.about-content p{
-  font-size: 3.5em;
-  text-align: left;
-  width: 300px;
-}
-
-.work{
-  left:2em;
-  top:2em;
-  align-items: flex-start;
-}
-.work .work-content{
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 5em;
-}
-.project img{
-width: 45em;  
-height: 45em;
-}
-
-.contact{
-  top:15em;
-  left:2em;
-}
-.contact h1{
-  font-size: 4em;
-}
-.contact .email{
-  font-size: 3.5em;
-}
-
-.contact li{
-  display: block;
-  padding: 2em;
-}
-.contact li a{
-  font-size: 2.5em;
-}
-.footer{
-  top:4em;
-  padding: 1em;
-  font-size: 2em;
-}
-
-
-}
-
-/* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-
-
-body{
-    font-size: 10px;
+    font-size: 5rem;  
+    padding: 1rem;
+    margin-right: 0rem;
   }
-header h1{
-font-size: 5em;  
-padding: 1em;
-margin-right: 0em;
-}
-
-nav{
-  display: none;
-}
-.header-title{
-  font-size: 3.6em;
-  text-align: left;
-  top:1em;
-  left:1em;
-}
-.about{position: relative;
-      display: flex;
-      top:-10em;
-}
-.about img{
-  display: none
-}
-.about-content{
-  left:6em;
-}
-.about-content p{
-  font-size: 3.5em;
-  text-align: left;
-  width: 700px;
-}
-
-.work{
-  left:6em;
-  top:4em;
-  align-items: flex-start;
-}
-.work .work-content{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 5em;
-}
-.project img{
-width: 30em;  
-height: 30em;
-}
-
-.contact{
-  top:15em;
-  left:6em;
-}
-.contact h1{
-  font-size: 4em;
-}
-.contact .email{
-  font-size: 3.5em;
-}
-
-.contact li{
-  display: block;
-  padding: 2em;
-}
-.contact li a{
-  font-size: 2.5em;
-}
-.footer{
-  top:4em;
-  padding: 1em;
-  font-size: 2em;
-}
-
-}
-
-/* Large screens ----------- */
-@media only screen  and (min-width : 1824px) {
-/* Styles */
-
-
-
-body{
-    font-size: 20px;
+  .heading-background{
+    display: none;
   }
-  header h1{
-    font-size: 3em;
-    margin-right: 25em;
-  }
-
-
   nav{
-  left:60em;
-  top:12em;
-  z-index: 100;
-}
-nav li{
-   font-size: 3em;
-
-}
-.header-title{
-  font-size: 5em;
-  top:1em;
-  left:1em;
-}
-.about{position: relative;
-      display: flex;
-      top:-20em;
-}
-.about-content{
-  left:10em;
-}
-.about-content p{
-  font-size: 3.5em;
-  text-align: left;
-  width: 25em;
-}
-.about img{
-  margin-left: 1em;
-}
-
-.work{
-  left:10em;
-  top:4em;
-  align-items: flex-start;
-}
-.work .work-content{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-.project img{
-width: 32em;  
-height: 32em;
-}
-
-.contact{
-  top:10em;
-  left:8em;
-}
-.contact h1{
-  font-size: 8em;
-}
-.contact .email{
-  font-size: 5em;
-}
-
-.contact li a{
-  font-size: 4em;
-  padding: 1em;
-}
-.footer{
-  top:4em;
-  padding: 1em;
-  font-size: 4em;
-}
+    display: none;
+  }
+  .header-title{
+    font-size: 3rem;
+    text-align: left;
+    top:1rem;
+    left:1rem;
+  }
+  .about{position: relative;
+        display: flex;
+        top:-30rem;
+  }
+  .about img{
+    display: none
+  }
+  .about-content{
+    left:2rem;
+  }
+  .about-content p{
+    font-size: 3.5rem;
+    text-align: left;
+    width: 300px;
+  }
+  .work{
+    left:2rem;
+    top:2rem;
+    align-items: flex-start;
+  }
+  .work .work-content{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5rem;
+  }
+  .project img{
+  width: 45rem;  
+  height: 45rem;
+  }
+  .contact{
+    top:15rem;
+    left:2rem;
+  }
+  .contact h1{
+    font-size: 4rem;
+  }
+  .contact .email{
+    font-size: 3.5rem;
+  }
+  .contact li{
+    display: block;
+    padding: 2rem;
+  }
+  .contact li a{
+    font-size: 2.5rem;
+  }
+  .footer{
+    top:4rem;
+    padding: 1rem;
+    font-size: 2rem;
+  }
 }
