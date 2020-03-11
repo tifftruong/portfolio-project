@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans&display=swap');
 
 body{
-  font-size: 16px;
+  font-size: 1rem;
   background: white;
   font-family: 'Open Sans', sans-serif;
   overflow-x: hidden;
@@ -12,7 +12,7 @@ body{
 }
 .App-header {
   position: relative;
-  min-height: 100vh;
+  min-height: 55rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,7 +22,7 @@ body{
 .App-header img {
   position: relative;
   top:-1rem;
-  margin-left:-40rem;
+  margin-left:-50rem;
 }
 .heading-background{
   position: fixed;
@@ -41,7 +41,7 @@ header{
 }
 header h1{
 font-size: 1rem;
-font-weight: 400;  
+font-weight: 400rem;  
 padding: 1rem;
 margin-right: 50rem;
 }
@@ -50,6 +50,7 @@ nav{
   left:60rem;
   top:3rem;
   z-index: 100;
+  display:flex;
 }
 nav li{
   display: inline-block;
@@ -75,13 +76,13 @@ li .link:hover{
   opacity: 1;
 }
 .header-title img {
-  margin-left:0.2rem;
+  margin-left:1rem;
   width: 35rem;
   margin-top:-1rem;
 }
 .header-title button{
   background:#69748D;
-  border: 0px;
+  border: 0rem;
   padding: 1rem 3rem;
   margin-top:2rem;
   transition: all 0.2s ease-out;
@@ -146,12 +147,12 @@ li .link:hover{
 }
 
 .work h1{
-  font-size:1.5rem;
+  font-size:1rem;
 }
 
 .project img{
-width: 30rem;  
-height: 25rem;
+  width: 28rem;  
+  height: 23rem;
 }
 .contact{
   position: relative;
@@ -178,87 +179,12 @@ height: 25rem;
 }
 .contact li{
   display: inline-block;
-  margin-top:0;
-  margin-bottom: 0;
+  margin-top:0rem;
+  margin-bottom: 0rem;
   margin-right: 1rem;
-  margin-left: 0;
+  margin-left: 0rem;
 }
 .contact li a{
   text-decoration: none;
   color:black;
-}
-
-/* SMARTPHONES PORTRAIT */
-@media only screen and (min-device-width: 320px) and (max-device-width : 480px){
-  body{
-    font-size: 6px;
-  }
-  header h1{
-    font-size: 5rem;  
-    padding: 1rem;
-    margin-right: 0rem;
-  }
-  .heading-background{
-    display: none;
-  }
-  nav{
-    display: none;
-  }
-  .header-title{
-    font-size: 3rem;
-    text-align: left;
-    top:1rem;
-    left:1rem;
-  }
-  .about{position: relative;
-        display: flex;
-        top:-30rem;
-  }
-  .about img{
-    display: none
-  }
-  .about-content{
-    left:2rem;
-  }
-  .about-content p{
-    font-size: 3.5rem;
-    text-align: left;
-    width: 300px;
-  }
-  .work{
-    left:2rem;
-    top:2rem;
-    align-items: flex-start;
-  }
-  .work .work-content{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 5rem;
-  }
-  .project img{
-  width: 45rem;  
-  height: 45rem;
-  }
-  .contact{
-    top:15rem;
-    left:2rem;
-  }
-  .contact h1{
-    font-size: 4rem;
-  }
-  .contact .email{
-    font-size: 3.5rem;
-  }
-  .contact li{
-    display: block;
-    padding: 2rem;
-  }
-  .contact li a{
-    font-size: 2.5rem;
-  }
-  .footer{
-    top:4rem;
-    padding: 1rem;
-    font-size: 2rem;
-  }
 }

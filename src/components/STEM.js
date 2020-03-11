@@ -1,14 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react'
+import '../App.css';
 
-class STEM extends Component {
-    state = {  }
-    render() { 
-        return (  <div>
-        <div className='header'>
-            <h1>Student | Teacher | Employee | Manager</h1>
-        </div>
-    </div>);
-    }
+function STEM() {
+    return (
+      <div className="page">
+        Student | Teacher | Employee | Manager
+      </div>
+    )
 }
-
 export default STEM;
