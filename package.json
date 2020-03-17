@@ -6,6 +6,7 @@
     "react": "^16.8.6",
     "react-animations": "^1.0.0",
     "react-dom": "^16.8.6",
+    "react-native-image-overlay": "^0.1.2",
     "react-reveal": "^1.2.2",
     "react-router": "^5.1.2",
     "react-router-dom": "^5.1.2",

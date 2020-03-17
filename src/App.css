@@ -59,9 +59,9 @@ nav li{
 }
 nav li .link{
   text-decoration: none;
-  color:black;
+  color:#69748D;
   padding:1rem;
-  opacity: 0.5;
+  opacity:0.5;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -69,11 +69,11 @@ nav li .link{
   -o-transition: all 0.3s ease-in-out;
 }
 li .link:hover{
-  opacity: 1;
+  opacity:1;
 }
 .active{
   color:#69748D;
-  opacity: 1;
+  opacity:1;
 }
 .header-title img {
   display: flex;
