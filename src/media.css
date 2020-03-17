@@ -1,4 +1,4 @@
-@media only screen and (min-device-width: 320px) and (max-device-width : 480px){
+@media only screen and (min-device-width: 320px) and (max-device-width : 480px){ /* mobile */
     body{
         font-size: 6px;
     }
@@ -15,9 +15,10 @@
         top:-1rem;
         display: block;
         margin: 0 auto;
-        height:5rem;
+        height:4rem;
         width: 20rem;
-      }
+        margin-left:1rem;
+    }
     .header-title{
         font-size: 4em;
         text-align: center;
@@ -25,18 +26,19 @@
         left:1em;
     }
     .header-title img {
-        display: block;
+        display: flex;
         margin: 0 auto;
         height:10rem;
         width: 15rem;
         margin-top:-1rem;
-        justify-content: center
-      }
+        justify-content: center;
+    }
     .about{
         position: relative;
         display: flex;
         top:-50em;
         font-size:1em;
+        margin-left:2rem;
     }
     .about-content h1{
         font-size: 6em;
@@ -59,6 +61,7 @@
     }
     .work .heading{
         font-size: 6em;
+        margin-left:2rem;
     }
     .work .work-content{
         display: grid;
@@ -72,8 +75,9 @@
     .contact{
         position: relative;
         display:flex;
-        top:-50em;
+        top:-45em;
         left:2em;
+        margin-left:2rem;
     }
     .contact h1{
         font-size:6em;
@@ -82,9 +86,11 @@
     .amazing-color{
         font-size: 2em;
     }
+    .contact h2 {
+        padding-bottom:1rem;
+    }
     .contact .email{
-        margin-top:10em;
-        font-size: 3em;
+        font-size: 2.5em;
     }
     .contact li{
         display: block;
@@ -95,13 +101,96 @@
         padding-bottom:-1em;
     }
 }
-@media only screen and (min-width: 600px){
-    html { /* tablet */
-        font-size:15px;
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){ /* tablet */
+    body{
+        font-size: 10px;
     }
-}
-@media only screen and (min-width: 768px){
-    html { /* desktop */
-        font-size:17px;
+    header h1{
+        font-size: 5em;  
+        padding: 1em;
+        margin-right: 0em;
+    }
+    nav{
+        display: none;
+    }
+    .App-header img {
+        position: relative;
+        top:-1rem;
+        display: flex;
+        margin: 0 auto;
+        margin-left:5rem;
+        height:8rem;
+        width: 40rem;
+    }
+    .header-title{
+        font-size: 5em;
+        text-align: center;
+        top:1em;
+        left:1em;
+    }
+    .header-title img {
+        display: flex;
+        margin: 0 auto;
+        height:20rem;
+        width: 30rem;
+        margin-top:-1rem;
+        justify-content: center
+    }
+    .about{
+        position: relative;
+        display: flex;
+    }
+    .about img{
+        display: none
+    }
+    .about-content{
+        left:6em;
+    }
+    .about-content p{
+        font-size: 3.5em;
+        text-align: left;
+        width: 700px;
+    }
+    .work{
+        left:6em;
+        top:4em;
+        align-items: flex-start;
+    }
+    .work .work-content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5em;
+    }
+    .project img{
+        width: 30em;  
+        height: 30em;
+    }
+    .contact{
+        position: relative;
+        display:flex;
+        top:10em;
+        left:2em;
+        margin-left:2rem;
+        font-size:1em;  
+    }
+    .contact h1{
+        font-size:8em;
+    }
+    .amazing-color{
+        font-size: 2em;
+    }
+    .contact h2 {
+        padding-bottom:1rem;
+    }
+    .contact .email{
+        font-size: 2.5em;
+    }
+    .contact li{
+        display: block;
+        padding: 0.5em;
+    }
+    .contact li a{
+        font-size: 2.5em;
+        padding-bottom:-1em;
     }
 }

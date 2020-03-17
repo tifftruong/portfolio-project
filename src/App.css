@@ -41,10 +41,10 @@ header{
   align-items: center;
 }
 header h1{
-font-size: 1rem;
-font-weight: 400rem;  
-padding: 1rem;
-margin-right: 50rem;
+  font-size: 1rem;
+  font-weight: 400rem;  
+  padding: 1rem;
+  margin-right: 50rem;
 }
 nav{
   position:fixed;
@@ -56,7 +56,6 @@ nav{
 nav li{
   display: inline-block;
   cursor: pointer;
-
 }
 nav li .link{
   text-decoration: none;
@@ -148,11 +147,9 @@ li .link:hover{
   grid-template-columns: repeat(2,1fr);
   grid-gap: 2rem;
 }
-
 .work h1{
   font-size:1rem;
 }
-
 .project img{
   width: 28rem;  
   height: 23rem;
