@@ -188,4 +188,5 @@ li .link:hover{
 .contact li a{
   text-decoration: none;
   color:black;
+  padding-bottom:5rem;
 }
