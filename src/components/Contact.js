@@ -20,7 +20,6 @@ class Contact extends Component {
                     ))} 
         </div>
         </Fade>
-        <br></br><br></br>
         </div>);
     }
 }
