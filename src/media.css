@@ -24,6 +24,7 @@
         text-align: center;
         top:1em;
         left:1em;
+        margin-left:-1.5rem;
     }
     .header-title img {
         display: flex;
