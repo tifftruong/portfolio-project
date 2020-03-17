@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 body{
   font-size: 1rem;
@@ -21,6 +21,7 @@ body{
 }
 .App-header img {
   position: relative;
+  display: flex;
   top:-1rem;
   margin-left:-50rem;
 }
@@ -76,6 +77,7 @@ li .link:hover{
   opacity: 1;
 }
 .header-title img {
+  display: flex;
   margin-left:1rem;
   width: 35rem;
   margin-top:-1rem;
@@ -95,13 +97,13 @@ li .link:hover{
   opacity: 0.8;
 }
 .header-title button a{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif, bold;
   color:white;
   text-decoration: none;
 }
 .header-title{
   position: relative;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 3rem;
   text-align: left;
   top:2rem;
@@ -115,7 +117,7 @@ li .link:hover{
   left:15rem;
 }
 .about-content h1{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 5rem;
   text-align: left;
 }
@@ -126,6 +128,7 @@ li .link:hover{
 }
 .about img{
   margin-left:18rem;
+  display: flex;
 }
 .work{
   position: relative;
@@ -136,7 +139,7 @@ li .link:hover{
   align-items: flex-start;
 }
 .work .heading{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 5rem;
   text-align: left;
 }
@@ -156,12 +159,13 @@ li .link:hover{
 }
 .contact{
   position: relative;
+  display: flex;
   top:8rem;
   left:15rem;
   text-align: left;
 }
 .contact h1{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 5rem;
   text-align: left;
 }

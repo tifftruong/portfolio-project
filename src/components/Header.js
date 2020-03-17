@@ -13,7 +13,7 @@ class Header extends Component {
             </header>
             <Fade bottom>
             <p className='header-title'>
-                {data.headerImg ? <img src={data.headerImg} width="600" height="300" alt='doodle'></img> : null}
+                {data.headerImg ? <img src={data.headerImg} width="600" height="300" alt='doodle' class='center'></img> : null}
                 <br></br>
                 {data.headerTagline[0]}<br></br>{data.headerTagline[1]}
                <br></br>

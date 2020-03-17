@@ -7,7 +7,7 @@ class About extends Component {
     render() { 
         return (<div className='about'>
             <div className='about-content'>
-            <h1><Fade bottom cascade>about.</Fade></h1>
+            <h1><Fade bottom cascade>about</Fade></h1>
             <Fade bottom>
                     <p>{data.abouttext}</p>
             </Fade>
